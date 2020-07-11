@@ -22,4 +22,9 @@ body {
 .hero-text {
   color: #272727;
 }
+
+.hero-text #title {
+  padding-top: 7%;
+  padding-left: 3%;
+}
 /*# sourceMappingURL=main.css.map */
