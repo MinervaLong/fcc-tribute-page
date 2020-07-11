@@ -62,4 +62,14 @@ body {
   left: 0px;
   opacity: 0.2;
 }
+
+#tribute-info {
+  text-align: left;
+  line-height: 1.7rem;
+}
+
+#tribute-info p {
+  position: relative;
+  margin-bottom: 2%;
+}
 /*# sourceMappingURL=main.css.map */
