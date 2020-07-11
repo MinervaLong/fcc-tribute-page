@@ -20,11 +20,6 @@ body {
 }
 
 .hero-text {
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   color: #272727;
 }
 /*# sourceMappingURL=main.css.map */
