@@ -50,6 +50,9 @@ body {
 
 #main {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #main::before {
