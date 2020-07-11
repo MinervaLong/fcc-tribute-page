@@ -35,4 +35,13 @@ body {
   text-align: right;
   font-style: italic;
 }
+
+.hero-text button {
+  background-color: black;
+  color: #FFF;
+  padding: 1%;
+  border: 1px solid black;
+  -webkit-box-shadow: 4px 3px 10px 2px #888;
+          box-shadow: 4px 3px 10px 2px #888;
+}
 /*# sourceMappingURL=main.css.map */
