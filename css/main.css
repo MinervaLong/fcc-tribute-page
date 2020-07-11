@@ -49,7 +49,17 @@ body {
 }
 
 #main {
+  position: relative;
+}
+
+#main::before {
+  content: "";
   background-image: url("../img/bg_img.jpg");
-  opacity: 0.4;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
 }
 /*# sourceMappingURL=main.css.map */
