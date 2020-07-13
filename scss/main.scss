@@ -48,6 +48,10 @@ body {
 #main {
     position: relative;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; 
 }
 #main::before {
     content:"";
