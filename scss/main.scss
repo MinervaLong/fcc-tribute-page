@@ -71,9 +71,16 @@ body {
 #tribute-info {
     text-align: left;
     line-height: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
 
     p {
         position: relative;
         margin-bottom: 2%;
+        width: 50%;
+        
     }
 }
