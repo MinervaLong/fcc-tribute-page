@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+.b {
+  border: 1px solid black;
+}
+
 body {
   font-size: 16pt;
   background-color: #fafafa;
