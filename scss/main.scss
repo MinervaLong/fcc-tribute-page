@@ -74,7 +74,7 @@ body {
     .tributeDiv {
         position: relative;
         padding: 15px;
-        border: 1px solid #CAD0D2;
+        border: 1px solid #8ca1a8;
         border-radius: 4px;        
     }
 
@@ -89,6 +89,13 @@ body {
         position: absolute;
         pointer-events: none;
     }
+
+    .tributeDiv:after {
+        border-color: transparent;
+        border-right-color: #ffffff;
+        border-width: 8px;
+        margin-top: -8px;
+      }
 
 
 

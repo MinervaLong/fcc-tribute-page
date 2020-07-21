@@ -89,7 +89,7 @@ body {
 #tribute-info .tributeDiv {
   position: relative;
   padding: 15px;
-  border: 1px solid #CAD0D2;
+  border: 1px solid #8ca1a8;
   border-radius: 4px;
 }
 
@@ -103,5 +103,12 @@ body {
   width: 0;
   position: absolute;
   pointer-events: none;
+}
+
+#tribute-info .tributeDiv:after {
+  border-color: transparent;
+  border-right-color: #ffffff;
+  border-width: 8px;
+  margin-top: -8px;
 }
 /*# sourceMappingURL=main.css.map */
