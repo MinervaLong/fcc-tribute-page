@@ -92,9 +92,16 @@ body {
 
     .tributeDiv:after {
         border-color: transparent;
-        border-right-color: #ffffff;
+        border-right-color: #a8a4a4;
         border-width: 8px;
         margin-top: -8px;
+    }
+
+    .tributeDiv:before {
+        border-color: transparent;
+        border-right-color: #CAD0D2;
+        border-width: 9px;
+        margin-top: -9px;
       }
 
 
