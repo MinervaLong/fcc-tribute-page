@@ -69,7 +69,7 @@ body {
 }
 
 #tribute-info {
-    display: flex;
+    /*display: flex;*/
      
     .tributeDiv {
         position: relative;
@@ -78,5 +78,18 @@ body {
         border-radius: 4px;        
     }
 
-    
+    .tributeDiv:after,
+    .tributeDiv:before {
+        right: 100%;
+        top: 35px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+
+
 }
