@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.b { 
+    border: 1px solid black;
+}
+
 body {
     font-size: 16pt;
     background-color: #fafafa;
@@ -47,6 +51,11 @@ body {
 
 #main {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+     
 }
 #main::before {
     content:"";
@@ -60,11 +69,50 @@ body {
 }
 
 #tribute-info {
-    text-align: left;
-    line-height: 1.7rem;
-
-    p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     
+    .tributeDiv {
         position: relative;
-        margin-bottom: 2%;
+        padding: 15px;
+        border: 1px solid #8ca1a8;
+        border-radius: 4px;
+        margin-bottom: 2%;        
     }
+
+    .tributeDiv:after,
+    .tributeDiv:before {
+        right: 100%;
+        top: 35px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .tributeDiv:after {
+        border-color: transparent;
+        border-right-color: #a8a4a4;
+        border-width: 8px;
+        margin-top: -8px;
+    }
+
+    .tributeDiv:before {
+        border-color: transparent;
+        border-right-color: #CAD0D2;
+        border-width: 9px;
+        margin-top: -9px;
+    }
+
+    .tributeDiv__content {
+        color: #57727C;
+        font-size: 1.5ch;
+        line-height: 1.3;
+      }
+
+
+
 }
