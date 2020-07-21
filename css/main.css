@@ -88,9 +88,10 @@ body {
   display: flex;
 }
 
-#tribute-info p {
+#tribute-info .tributeDiv {
   position: relative;
-  margin-bottom: 2%;
-  width: 50%;
+  padding: 15px;
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=main.css.map */
