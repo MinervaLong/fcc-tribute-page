@@ -69,13 +69,16 @@ body {
 }
 
 #tribute-info {
-    /*display: flex;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
      
     .tributeDiv {
         position: relative;
         padding: 15px;
         border: 1px solid #8ca1a8;
-        border-radius: 4px;        
+        border-radius: 4px;
+        margin-bottom: 2%;        
     }
 
     .tributeDiv:after,

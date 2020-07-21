@@ -83,7 +83,16 @@ body {
 }
 
 #tribute-info {
-  /*display: flex;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #tribute-info .tributeDiv {
@@ -91,6 +100,7 @@ body {
   padding: 15px;
   border: 1px solid #8ca1a8;
   border-radius: 4px;
+  margin-bottom: 2%;
 }
 
 #tribute-info .tributeDiv:after,
