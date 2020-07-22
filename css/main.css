@@ -160,6 +160,8 @@ body {
 #image {
   position: relative;
   border-radius: 1%;
+  -webkit-box-shadow: -1px 10px 24px 0px #3a3b3d;
+          box-shadow: -1px 10px 24px 0px #3a3b3d;
 }
 
 #img-caption {
