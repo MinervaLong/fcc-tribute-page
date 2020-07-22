@@ -174,5 +174,20 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #b8bcbd;
+}
+
+.book__container:hover .book__overlay {
+    opacity: 1;
+  }
+
+.book__text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
 }
