@@ -193,6 +193,7 @@ body {
 .book__container {
   position: relative;
   width: 50%;
+  margin-right: 3%;
 }
 
 .book__image {
