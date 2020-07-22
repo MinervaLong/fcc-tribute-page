@@ -150,7 +150,10 @@ body {
 }
 
 .book {
+    padding: 8%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .book__container {
