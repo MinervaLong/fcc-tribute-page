@@ -180,6 +180,10 @@ body {
   text-align: center;
 }
 
+.book__heading--bio {
+  margin-bottom: 2%;
+}
+
 .book {
   padding: 4%;
   display: -webkit-box;
