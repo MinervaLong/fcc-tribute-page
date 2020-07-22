@@ -55,6 +55,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    padding-top: 3%;
      
 }
 #main::before {
@@ -72,7 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-     
+
     .tributeDiv {
         position: relative;
         padding: 15px;
@@ -113,6 +114,18 @@ body {
         line-height: 1.3;
       }
 
+}
 
+.tribute-image {
+    flex: 0 1 auto;
+}
 
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 50%;
+    
 }
