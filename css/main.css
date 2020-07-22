@@ -181,4 +181,15 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.book__container {
+  position: relative;
+  width: 50%;
+}
+
+.book__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 /*# sourceMappingURL=main.css.map */
