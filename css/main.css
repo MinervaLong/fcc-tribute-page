@@ -157,6 +157,10 @@ body {
   height: 50%;
 }
 
+#image {
+  position: relative;
+}
+
 #img-caption {
   margin-top: 2%;
   color: #57727C;
