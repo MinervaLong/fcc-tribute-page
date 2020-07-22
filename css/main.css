@@ -175,4 +175,77 @@ body {
   line-height: 1;
   text-align: center;
 }
+
+.book__heading {
+  text-align: center;
+}
+
+.book__heading--bio {
+  margin-bottom: 3%;
+}
+
+.book__heading--book {
+  margin-top: 2%;
+}
+
+.book {
+  padding: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.book__container {
+  position: relative;
+  width: 50%;
+}
+
+.book__container--margin {
+  margin-right: 3%;
+}
+
+.book__image {
+  display: block;
+  width: 100%;
+  height: 90%;
+  -webkit-box-shadow: -1px 10px 24px 0px #3a3b3d;
+          box-shadow: -1px 10px 24px 0px #3a3b3d;
+}
+
+.book__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #b8bcbd;
+}
+
+.book__container:hover .book__overlay {
+  opacity: 1;
+}
+
+.book__text {
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: 9%;
+  text-align: center;
+  padding: 2% 2%;
+  line-height: 1.3;
+}
 /*# sourceMappingURL=main.css.map */
