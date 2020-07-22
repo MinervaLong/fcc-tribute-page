@@ -181,7 +181,11 @@ body {
 }
 
 .book__heading--bio {
-  margin-bottom: 2%;
+  margin-bottom: 3%;
+}
+
+.book__heading--book {
+  margin-top: 2%;
 }
 
 .book {
