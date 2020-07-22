@@ -156,4 +156,13 @@ body {
   width: 85%;
   height: 50%;
 }
+
+#img-caption {
+  margin-top: 2%;
+  color: #57727C;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
