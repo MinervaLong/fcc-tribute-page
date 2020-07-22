@@ -51,13 +51,9 @@ body {
 
 #main {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
     padding-top: 3%;
-     
 }
+
 #main::before {
     content:"";
     background-image: url("../img/bg_img.jpg");
@@ -67,6 +63,14 @@ body {
     bottom: 0px;
     left: 0px;
     opacity: 0.2;
+}
+
+.tribute {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
 }
 
 #tribute-info {
