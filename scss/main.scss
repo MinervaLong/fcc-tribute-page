@@ -51,13 +51,9 @@ body {
 
 #main {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
     padding-top: 3%;
-     
 }
+
 #main::before {
     content:"";
     background-image: url("../img/bg_img.jpg");
@@ -67,6 +63,14 @@ body {
     bottom: 0px;
     left: 0px;
     opacity: 0.2;
+}
+
+.tribute {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
 }
 
 #tribute-info {
@@ -128,4 +132,19 @@ body {
     width: 85%;
     height: 50%;
     
+}
+
+#image {
+    position: relative;
+    border-radius: 1%;
+    box-shadow: -1px 10px 24px 0px rgb(58, 59, 61);
+}
+
+#img-caption {
+    margin-top: 2%;
+    color: #57727C;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
 }
