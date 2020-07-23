@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.b { 
+/*.b { 
     border: 1px solid black;
-}
+}*/
 
 body {
     font-size: 16pt;
@@ -165,7 +165,7 @@ body {
     padding: 4%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 
