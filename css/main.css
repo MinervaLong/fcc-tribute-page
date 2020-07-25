@@ -270,6 +270,10 @@ body {
   line-height: 1.5em;
 }
 
+.testimony .testimony__name {
+  padding-top: 1%;
+}
+
 .testimony .testimony__link {
   text-decoration: none;
   color: #272727;
