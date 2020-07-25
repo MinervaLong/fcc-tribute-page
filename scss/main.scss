@@ -212,3 +212,29 @@ body {
     line-height: 1.3;
 
 }
+
+.testimony {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    .testimony__text {
+        text-align: center;
+        width: 70%;
+        line-height: 1.5em;
+    }
+
+    .testimony__name {
+        padding-top: 1%;
+    }
+
+    .testimony__link {        
+        text-decoration: none;
+        color:#272727;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
