@@ -42,14 +42,18 @@ body {
     }
 
     button {
-        background-color: black;
-        color: #FFF;
+        background-color: black;        
         padding: 1%;
         border: 1px solid black;
         box-shadow: 4px 3px 10px 2px #888;
         margin-top: 2%;
         margin-left: 50%;
-        cursor: pointer;          
+        cursor: pointer;  
+        
+        a {
+            text-decoration: none;
+            color: #FFF;
+        }
     }
 }
 

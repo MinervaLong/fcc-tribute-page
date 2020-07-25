@@ -45,7 +45,6 @@ body {
 
 .hero-text button {
   background-color: black;
-  color: #FFF;
   padding: 1%;
   border: 1px solid black;
   -webkit-box-shadow: 4px 3px 10px 2px #888;
@@ -53,6 +52,11 @@ body {
   margin-top: 2%;
   margin-left: 50%;
   cursor: pointer;
+}
+
+.hero-text button a {
+  text-decoration: none;
+  color: #FFF;
 }
 
 #main {
