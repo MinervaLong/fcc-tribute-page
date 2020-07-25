@@ -263,4 +263,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.testimony .testimony__text {
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
