@@ -133,6 +133,13 @@ body {
     flex: 0 1 auto;
 }
 
+#tribute-link {        
+    text-decoration: none;
+    color:#272727;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 #img-div {
     display: flex;
     flex-direction: column;
@@ -237,13 +244,6 @@ body {
 
     .testimony__name {
         padding-top: 1%;
-    }
-
-    .testimony__link {        
-        text-decoration: none;
-        color:#272727;
-        font-weight: bold;
-        cursor: pointer;
-    }
+    }   
 }
 
