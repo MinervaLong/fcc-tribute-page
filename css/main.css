@@ -101,6 +101,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-right: 4%;
 }
 
 #tribute-info .tributeDiv {
