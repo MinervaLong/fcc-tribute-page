@@ -298,6 +298,10 @@ body {
   text-align: center;
 }
 
+.footer p {
+  margin-bottom: .5%;
+}
+
 .footer .footer__link {
   text-decoration: none;
   font-style: italic;
