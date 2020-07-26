@@ -297,4 +297,10 @@ body {
   color: #E4E4E4;
   text-align: center;
 }
+
+.footer .footer__link {
+  text-decoration: none;
+  font-style: italic;
+  color: #E4E4E4;
+}
 /*# sourceMappingURL=main.css.map */
