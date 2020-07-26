@@ -237,11 +237,15 @@ body {
 }
 
 .testimony {
-    padding: 4%;
+    padding-bottom: 4%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+
+    .testimony__icon {
+        width:10%;
+    }
 
     .testimony__text {
         text-align: center;
