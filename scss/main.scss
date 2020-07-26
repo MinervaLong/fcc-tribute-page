@@ -13,7 +13,8 @@ html {
 }
 
 body {
-    font-size: 16pt;
+    font-family: 'Lora';
+    font-size: 14pt;
     background-color: #fafafa;
 }
 
@@ -31,9 +32,13 @@ body {
     #title {
         padding-top: 7%;
         padding-left: 3%;
+        font-family: 'Cinzel Decorative';
+        font-size: 24pt;
     }
 
     p {
+        font-family: 'Cinzel Decorative';
+        font-size: 14pt;
         margin-top: 22%;
         margin-right: 3%;
         margin-left: 20%;
@@ -145,7 +150,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 95%;
     height: 50%;
     
 }
@@ -167,6 +172,8 @@ body {
 
 .book__heading {
     text-align: center;
+    font-family: 'Cinzel Decorative';
+    font-size: 18pt;
 }
 
 .book__heading--bio {
@@ -230,11 +237,15 @@ body {
 }
 
 .testimony {
-    padding: 4%;
+    padding-bottom: 4%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+
+    .testimony__icon {
+        width:10%;
+    }
 
     .testimony__text {
         text-align: center;
