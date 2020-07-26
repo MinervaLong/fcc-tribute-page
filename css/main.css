@@ -150,6 +150,13 @@ body {
           flex: 0 1 auto;
 }
 
+#tribute-link {
+  text-decoration: none;
+  color: #272727;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 #img-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -281,12 +288,5 @@ body {
 
 .testimony .testimony__name {
   padding-top: 1%;
-}
-
-.testimony .testimony__link {
-  text-decoration: none;
-  color: #272727;
-  font-weight: bold;
-  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
